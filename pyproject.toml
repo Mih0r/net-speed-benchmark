@@ -1,0 +1,9 @@
+[project]
+name = "net-speed-benchmark"
+version = "0.1.0"
+description = "Консольный скрипт для замера скорости скачивания данных по сети"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+]
